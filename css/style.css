@@ -96,6 +96,10 @@ h1 {
 .github {
     height: 50px;
     background-color: #ffffff;
+    transition: all 0.2s;
+}.github:hover {
+    scale: 1.1;
+    rotate: 7deg;
 }
 
 .get-cv {
@@ -109,6 +113,7 @@ h1 {
 }.get-cv:hover {
     box-shadow: 0.5px 1px 2px;
     transition: all 0.2s;
+    scale: 0.995;
 }
 /* ---------------------------------Colors-------------------------------------- */
 
