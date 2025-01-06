@@ -65,7 +65,7 @@ h1 {
 .header-cont {
     background-color: white;
     width: 90vw;
-    height: fit-content;
+    height: 4vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +79,6 @@ h1 {
 .logo {
     background-color: transparent;
     font-size: 1.4vw;
-    width: fit-content;
 }
 
 .text-cont {
@@ -94,8 +93,8 @@ h1 {
 }
 
 .header-line {
-    width: 2px;
-    height: 27.5px;
+    width: 0.1vw;
+    height: 2vw;
     color: #000000;
 }
 
@@ -117,7 +116,7 @@ h1 {
     gap: 10px;
     background-color: #ffffff;
     border: solid 2px #000000;
-    padding-left: 25px; padding-right: 25px; padding-top: 10px; padding-bottom: 10px;
+    padding-left: 0.7vw; padding-right: 0.7vw; padding-top: 0.3vw; padding-bottom: 0.3vw;
     border-radius: 100px;
     box-shadow: 1px 2px 4px;
     transition: all 0.2s;
@@ -136,7 +135,7 @@ h1 {
 .main {
     width: 100vw;
     height: fit-content;
-    gap: 20px;
+    gap: 2vw;
     background-color: transparent;
 }
 
@@ -176,11 +175,17 @@ h1 {
     background-color: red;
 }
 
-.test {
-    height: 100px;
+.footerbg {
+    height: 4vw;
     width: 100vw;
-    background-color: grey;
-    margin-top: auto;
+    background-color: #252525;
+    margin-top: 5vh;
+}
+
+.footertxt {
+    color: #B0B0B0;
+    background-color: transparent;
+    font-size: 0.8vw;
 }
 /* ---------------------------------Colors-------------------------------------- */
 
@@ -217,6 +222,10 @@ h1 {
     .open {
         font-size: 32vw;
     }
+
+    .footerbg {
+        height: 5vw;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -224,8 +233,12 @@ h1 {
         display: none;
     }
 
-    .cv {
+    .get-cv {
         display: none;
+    }
+
+    .github {
+        height: 7vw;
     }
 
     .logo {
@@ -243,6 +256,10 @@ h1 {
 
     .open-vertical {
         display: flex;
+    }
+
+    .footerbg {
+        height: 6vw;
     }
     
 }
