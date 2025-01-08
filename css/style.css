@@ -89,7 +89,7 @@ h1 {
     padding-left: 5px; padding-right: 5px;
 }.text-cont:hover {
     padding: 0px;
-    font-size: 17.5px;
+    font-size: 1vw;
     transition: all 0.2s;
 }
 
@@ -123,10 +123,17 @@ h1 {
     transition: all 0.2s;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8vw;
-}.get-cv:hover {
+}.get-cv:active {
     box-shadow: 0.04px 0.09px 0.19px;
     transition: all 0.2s;
     scale: 0.995;
+}.get-cv:hover {
+    background-color: #000000;
+    transition: all 0.2s;
+    color:#9E00E7;
+    border-color: #9E00E7;
+}.get-cv:hover .text-white {
+    color: white;
 }
 /* ----------------------------------Main--------------------------------------- */
 .main-cont {
@@ -134,11 +141,13 @@ h1 {
 }
 
 .main-buttons-cont {
+    display: none;
     margin-top: 5vw;
     width: 100vw;
 }
 
 .buttons-cont {
+    display: none;
     width: 75vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -153,7 +162,7 @@ h1 {
     border-radius: 100px;
     font-size: 1.25vw;
     transition: all 0.2s;
-    width: 35vw;
+    width: 20%;
 }.main-buttons:hover {
     transition: all 0.2s;
     scale: 0.95;
@@ -262,6 +271,14 @@ h1 {
     .main-buttons {
         display: flex;
     }
+
+    .main-buttons-cont {
+        display: flex;
+    }
+
+    .buttons-cont {
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -303,14 +320,16 @@ h1 {
     }
 
     .buttons-cont {
+        display: flex;
         height: 23vw;
         justify-content:center;
         gap: 5vw;
     }
 
     .main-buttons {
-        font-size: 3.2vw;
-  
+        font-size: 3vw;
+        width: 45%;
     }
+
     
 }
