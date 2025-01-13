@@ -243,7 +243,7 @@ a {
     width: 35vw;
 }
 
-/* -------------------------------Contact--------------------------------------- */
+/* -----------------------------Contact/info------------------------------------ */
 
 .contact-info-body {
     width: 100vw;
@@ -259,13 +259,16 @@ a {
 
 .line-under-text {
     height: 0.1vw;
-    width: 50vw;
+    width: 40vw;
     background-color: #ffffff;
 }
 
 .contact-info-text {
     font-family: Arial, Helvetica, sans-serif;
     gap: 2vw;
+    font-size: 0.8vw;
+    width: 50vw;
+    text-align: center;
 }
 
 /* --------------------------------Footer--------------------------------------- */
@@ -397,5 +400,14 @@ a {
         width: 45%;
     }
 
+    .projecten-img-cont {
+        align-items: center;
+        gap: 3vw;
+        flex-direction: column;
+    }
+
+    .my-projects-img {
+        width: 80vw;
+    }
     
 }
