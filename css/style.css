@@ -41,6 +41,8 @@ a {
     color: #000000;
     transition: all 0.1s;
     background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 a:hover {
@@ -189,9 +191,7 @@ a:hover {
     font-size: 1.25vw;
     transition: all 0.2s;
     width: 20%;
-}
-
-.main-buttons:hover {
+}.main-buttons:hover {
     transition: all 0.2s;
     scale: 0.95;
 }
