@@ -40,6 +40,7 @@ h1 {
 a {
     color: #000000;
     transition: all 0.1s;
+    background-color: transparent;
 }a:hover {
     transition: all 0.1s;
     color: #6d00a0;
@@ -216,22 +217,6 @@ a {
     background-color: red;
 }
 
-/* --------------------------------Footer--------------------------------------- */
-
-.footerbg {
-    height: 4vw;
-    width: 100vw;
-    background-color: #252525;
-    margin-top: 5vh;
-}
-
-.footertxt {
-    color: #7a7a7a;
-    background-color: transparent;
-    font-size: 0.8vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /* --------------------------------Projecten------------------------------------ */
 
 .projecten-cont {
@@ -256,6 +241,47 @@ a {
 
 .my-projects-img {
     width: 35vw;
+}
+
+/* -------------------------------Contact--------------------------------------- */
+
+.contact-info-body {
+    width: 100vw;
+    color: #ffffff;
+    gap: 4vw;
+}
+
+.contact-info-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    gap: 1vw;
+}
+
+.line-under-text {
+    height: 0.1vw;
+    width: 50vw;
+    background-color: #ffffff;
+}
+
+.contact-info-text {
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2vw;
+}
+
+/* --------------------------------Footer--------------------------------------- */
+
+.footerbg {
+    height: 4vw;
+    width: 100vw;
+    background-color: #252525;
+    margin-top: 5vh;
+}
+
+.footertxt {
+    color: #7a7a7a;
+    background-color: transparent;
+    font-size: 0.8vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ---------------------------------Colors-------------------------------------- */
