@@ -231,6 +231,33 @@ a {
     font-size: 0.8vw;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* --------------------------------Projecten------------------------------------ */
+
+.projecten-cont {
+    gap: 3vw;
+    padding-top: 5vw;
+}
+
+.projecten-txt-cont {
+    color: #ffffff;
+    width: 80vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    gap: 2vw;
+    align-self: center;
+}
+
+.projecten-img-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.my-projects-img {
+    width: 35vw;
+}
+
 /* ---------------------------------Colors-------------------------------------- */
 
 .txt-purple {
