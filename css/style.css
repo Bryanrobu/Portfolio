@@ -203,9 +203,17 @@ a:hover {
 }
 
 @keyframes cv-animate {
-    from {top:-100vh; opacity:0}
-    to {top:0; opacity:1}
+    from {
+        top: -100vh;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
+
 /* ----------------------------------Main--------------------------------------- */
 
 .main-buttons-cont {
@@ -234,7 +242,9 @@ a:hover {
     font-size: 1.25vw;
     transition: all 0.2s;
     width: 20%;
-}.main-buttons:hover {
+}
+
+.main-buttons:hover {
     transition: all 0.2s;
     scale: 0.95;
 }
