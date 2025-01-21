@@ -9,8 +9,6 @@
 
 header {
     width: 100vw;
-    height: fit-content;
-    padding-top: 20px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -91,6 +89,8 @@ a:hover .change-purple {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1vw;  padding-bottom: 1vw;
+
 }
 
 .sides-cont {
@@ -225,7 +225,6 @@ a:hover .change-purple {
 
 .main-buttons-cont {
     display: none;
-    margin-top: 5vw;
     width: 100vw;
 }
 
@@ -447,9 +446,22 @@ a:hover .change-purple {
     .line-under-text {
         width: 70vw;
     }
+
+    .projecten-txt-cont {
+        font-size: 2vw;
+    }
+
+    .introduction-text {
+        font-size: 3vw;
+    }
 }
 
 @media only screen and (max-width: 500px) {
+
+    .header-cont {
+        padding-top: 3vw; padding-bottom: 3vw;
+    }
+
     .open {
         display: none;
     }
@@ -509,4 +521,11 @@ a:hover .change-purple {
         width: 80vw;
     }
 
+    .projecten-txt-cont {
+        font-size: 4vw;
+    }
+
+    .introduction-text {
+        font-size: 4vw;
+    }
 }
