@@ -50,11 +50,6 @@ a {
     flex-wrap: nowrap;
 }
 
-a:hover .change-purple {
-    transition: all 0.1s;
-    color: #6d00a0;
-}
-
 .center {
     display: flex;
     justify-content: center;
@@ -99,11 +94,15 @@ a:hover .change-purple {
 
 .logo {
     background-color: transparent;
-    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 100;
 }
 
 .text-cont {
-    font-size: 0.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
+    font-weight: 700;
     background-color: transparent;
     transition: all 0.2s;
     padding-left: 5px;
@@ -112,8 +111,9 @@ a:hover .change-purple {
 
 .text-cont:hover {
     padding: 0px;
-    font-size: 1vw;
+    font-size: 1.5vw;
     transition: all 0.2s;
+    color: #6d00a0;;
 }
 
 .header-line {
@@ -150,7 +150,8 @@ a:hover .change-purple {
     box-shadow: 0.05VW 0.1VW 0.2VW;
     transition: all 0.2s;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8vw;
+    font-size: 1.25vw;
+    font-weight: 600;
 }
 
 .get-cv:active {
@@ -246,9 +247,10 @@ a:hover .change-purple {
     padding-top: 0.4vw;
     padding-bottom: 0.4vw;
     border-radius: 100px;
-    font-size: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
     transition: all 0.2s;
-    width: 11vw;
+    width: 14vw;
 }
 
 .main-buttons:hover {
@@ -375,7 +377,7 @@ a:hover .change-purple {
 
 .txt-purple {
     color: #9E00E7;
-    /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+    background-color: transparent;
 }
 
 .txt-lesspurple {
@@ -394,7 +396,7 @@ a:hover .change-purple {
     }
 
     .get-cv {
-        font-size: 1.1vw;
+        font-size: 2vw;
     }
 
     .github {
@@ -402,11 +404,11 @@ a:hover .change-purple {
     }
 
     .logo {
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     .introduction-text {
-        width: 60vw;
+        width: 60.5vw;
         font-size: 2.5vw;
     }
 
@@ -475,7 +477,7 @@ a:hover .change-purple {
     }
 
     .logo {
-        font-size: 4vw;
+        font-size: 7vw;
     }
 
     .introduction-text {
@@ -526,6 +528,6 @@ a:hover .change-purple {
     }
 
     .introduction-text {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 }
