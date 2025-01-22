@@ -509,8 +509,9 @@ a {
     }
 
     .main-buttons {
-        font-size: 3vw;
+        font-size: 5vw;
         width: 30vw;
+        height: 7vw;
     }
 
     .projecten-img-cont {
